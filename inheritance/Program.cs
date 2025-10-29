@@ -254,3 +254,103 @@
 //        return distance / time;
 //    }
 //}
+
+
+
+// *********************************
+//          Interface
+// *********************************
+
+//List<IAnimal> animals = new()
+//{
+//    new Dog(),
+//    new Cat()
+//};
+
+//foreach (var animal in animals)
+//{
+//    animal.Speak();
+//    animal.Eat();
+//}
+
+//interface IAnimal
+//{
+//    void Speak();
+//    void Eat();
+//}
+
+//class Dog : IAnimal
+//{
+//    public void Speak()
+//    {
+//        Console.WriteLine("Woof!");
+//    }
+//    public void Eat()
+//    {
+//        Console.WriteLine("Dog is eating.");
+//    }
+//}
+
+//class Cat : IAnimal
+//{
+//       public void Speak()
+//    {
+//        Console.WriteLine("Meow!");
+//    }
+//    public void Eat()
+//    {
+//        Console.WriteLine("Cat is eating.");
+//    }
+//}
+
+
+
+// Payment System
+
+//List<IPayment> payments = new()
+//{
+//    new CreditCardPayment(),
+//    new PayPalPayment(),
+//    new BankTransferPayment()
+//};
+
+//double[] amounts = [100.0, 295.4, 500.0];
+//int i = 0;
+//foreach(var payment in payments)
+//{
+//    payment.ProcessPayment(amounts[i]);
+//    i++;
+//}
+//interface IPayment
+//{
+//    public void ProcessPayment(double amount);
+//}
+
+//class CreditCardPayment : IPayment
+//{
+//    public void ProcessPayment(double amount)
+//    {
+//        Console.WriteLine($"Processing Credit Card payment of {amount} USD...");
+//    }
+//}
+
+//class PayPalPayment : IPayment
+//{
+//    public void ProcessPayment(double amount)
+//    {
+//        Console.WriteLine($"Processing Paypal payment of {amount} USD...");
+//    }
+//}
+
+//class BankTransferPayment : IPayment
+//{
+//    public void ProcessPayment(double amount)
+//    {
+//        Console.WriteLine($"Processing Bank Transfer payment of {amount} USD...");
+//    }
+//}
+
+
+
+
+
